@@ -1,50 +1,92 @@
-# Welcome to your Expo app 👋
+# 📰 Portal de Notícias – React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> 📱 Projeto mobile desenvolvido em **React Native**, adaptando um portal de notícias originalmente criado para a Web.
 
-## Get started
+---
 
-1. Install dependencies
+## 📌 Sobre o Projeto
 
-   ```bash
-   npm install
-   ```
+Este projeto tem como objetivo realizar a **transposição da interface web para o ambiente mobile**, utilizando **React Native**, com foco na adaptação visual e funcional da página inicial (*index*) de um **Portal de Notícias**.
 
-2. Start the app
+O layout foi pensado para dispositivos móveis, respeitando boas práticas de usabilidade, organização e responsividade.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🎯 Objetivo da Atividade
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Adaptar um projeto Web para Mobile  
+- Utilizar componentes fundamentais do React Native  
+- Aplicar corretamente o **Flexbox**  
+- Trabalhar com estilização mobile usando `StyleSheet`  
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 🛠️ Tecnologias Utilizadas
 
-When you're ready, run:
+- ⚛️ React Native  
+- 📜 JavaScript  
+- 📐 Flexbox  
+- 🎨 StyleSheet  
+
+---
+
+## 🧩 Componentes Utilizados
+
+- `View` → Estruturação de containers e seções  
+- `Text` → Conteúdo textual (títulos, parágrafos, rodapé)  
+- `Image` → Logomarca e imagens das notícias  
+- `ScrollView` → Rolagem da tela  
+- `StyleSheet` → Estilização e layout com Flexbox  
+
+---
+
+## 📐 Estrutura da Interface
+
+### 🔹 Cabeçalho
+- Nome do portal
+- Cor de destaque
+
+### 🔹 Destaque Principal
+- Imagem grande
+- Título em negrito
+- Breve resumo da notícia
+
+### 🔹 Notícias Secundárias
+- Pelo menos duas notícias
+- Dispostas verticalmente
+
+### 🔹 Rodapé
+- Informações de copyright e/ou data
+
+---
+
+## 📱 Layout e Responsividade
+
+- Uso de **Flexbox** para organização dos elementos  
+- Layout adaptável a diferentes tamanhos de tela  
+- Interface pensada para o ambiente mobile  
+
+---
+
+## ✅ Critérios Atendidos
+
+✔ Fidelidade visual ao projeto original  
+✔ Uso correto de Flexbox  
+✔ Código organizado e legível  
+✔ Boas práticas do React Native  
+✔ Responsividade básica  
+
+---
+
+## ⚠️ Observação Importante
+
+> No **React Native não existe herança de estilos de texto** como no CSS da Web.  
+> Todo estilo (negrito, tamanho, cor, etc.) deve ser aplicado **diretamente no componente `<Text>`**.
+
+---
+
+## ▶️ Como Executar o Projeto
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install
+npm start
